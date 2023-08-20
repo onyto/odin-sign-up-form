@@ -57,15 +57,54 @@ body {
 .content-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   width: 70vw;
 }
 
-.header {
+.header, .form, .footer {
+  height: 33vh;
+  padding-left: 40px;
 }
 
-.form {
+.header {
+  background-color: #f9fafb;
+}
+
+.header-content {
+  padding: 150px 0px 50px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 45vw;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+}
+
+.form-row label {
+  letter-spacing: 1.5px;
+}
+
+.form-row input {
+  appearance: none;
+  border-color: #E5E7EB;
+  border-radius: 5px;
+}
+
+.form-row input:invalid {
+  border: 2px solid red;
 }
 
 .footer {
+  background-color: #f9fafb;
 }

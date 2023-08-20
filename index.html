@@ -23,39 +23,58 @@
     </div>
     <div class="content-container">
       <div class="header">
-        <h2>
-          This is not a real online service! You know you need something like this in your life
-          to help you realize your deepest dreams. Sign up now to get started.
-        </h2>
-        <h2>You know you want to.</h2>
+        <div class="header-content">
+          <h2>
+            This is not a real online service! You know you need something <br> like this in your life
+            to help you realize your deepest dreams. <br> Sign up now to get started.
+          </h2>
+          <h2>You know you want to.</h2>
+        </div>
       </div>
       <div class="form">
         <h2>Let's do this!</h2>
-        <form>
-          <input type="text" name="first-name" id="first-name">
-          <label for="first-name">FIRST NAME</label>
+        <form id="form">
+          <div class="form-row">
+            <div class="input">
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" name="first-name" id="first-name">
+            </div>
 
-          <input type="text" name="last-name" id="last-name">
-          <label for="last-name">LAST NAME</label>
+            <div class="input">
+              <label for="last-name">LAST NAME</label>
+              <input type="text" name="last-name" id="last-name">
+            </div>
+          </div>
 
-          <input type="email" name="email" id="email">
-          <label for="email">EMAIL</label>
+          <div class="form-row">
+            <div class="input">
+              <label for="email">EMAIL</label>
+              <input type="email" name="email" id="email">
+            </div>
 
-          <input type="tel" name="telephone" id="telephone">
-          <label for="telephone">PHONE NUMBER</label>
+            <div class="input">
+              <label for="telephone">PHONE NUMBER</label>
+              <input type="tel" name="telephone" id="telephone">
+            </div>
+          </div>
 
-          <input type="password" name="pw-1" id="pw-1">
-          <label for="pw-1">PASSWORD</label>
+          <div class="form-row">
+            <div class="input">
+              <label for="pw-1">PASSWORD</label>
+              <input type="password" name="pw-1" id="pw-1">
+            </div>
 
-          <input type="password" name="pw-2" id="pw-2">
-          <label for="pw-2">CONFIRM PASSWORD</label>
+            <div class="input">
+              <label for="pw-2">CONFIRM PASSWORD</label>
+              <input type="password" name="pw-2" id="pw-2">
+            </div>
+          </div>
         </form>
       </div>
       <div class="footer">
-        <button type="submit">Create Account</button>
+        <button type="submit" form="form">Create Account</button>
         <p>Already have an account? Log in</p>
       </div>
-
     </div>
   </div>
 </body>
