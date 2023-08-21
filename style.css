@@ -99,10 +99,22 @@ form {
   appearance: none;
   border-color: #E5E7EB;
   border-radius: 5px;
+  height: 25px;
 }
 
 .form-row input:invalid {
   border: 2px solid red;
+}
+
+button {
+  background-color: #596D48;
+  border: none;
+  color: white;
+  padding: 12px 50px;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 6px;
 }
 
 .footer {
