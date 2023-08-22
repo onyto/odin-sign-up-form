@@ -108,8 +108,13 @@ form {
   box-shadow: 0px 0px 3px black;
 }
 
-.form-row input:invalid {
+.form-row .input .invalid {
   border-color: red;
+}
+
+#pwError {
+  color: red;
+  font-size: 80%;
 }
 
 button {
