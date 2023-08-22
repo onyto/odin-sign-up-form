@@ -126,3 +126,8 @@ button {
 .footer {
   background-color: #f9fafb;
 }
+
+.footer a {
+  color: #596D48;
+  text-decoration-line: none;
+}
